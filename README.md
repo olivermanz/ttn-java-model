@@ -10,7 +10,7 @@ can handle different types of sensors.
 
 # MapperFactory 
 A Jackson Mapper known to work can be obtained by using the Factory
-provided with this model. If want to generate your own : it is a good idea to
+provided with this model. If you want to generate your own : it is a good idea to
 set FAIL_ON_UNKNOWN_PROPERTIES to false since there maybe additional fields that 
 I did not catch while building the model.
 
