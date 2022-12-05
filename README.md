@@ -4,14 +4,15 @@ A Jackson based java model for the current The Thinks Network Webhook.
 The model has been constructed by reverse engineering example calls to 
 my API. So there is margin for error.
 
-# Beware
-The model is generic and does not implement decoded payload. But because it
-is present it is important to configure Jackson not to fail on unknown 
-properties. You will also need to add JavaTimeModule to the mapper. 
+# Payload
+The model is generic. Decoded payload is implemented as JsonNode so that it
+can handle different types of sensors.  
 
 # MapperFactory 
 A Jackson Mapper known to work can be obtained by using the Factory
-provided with this model.
+provided with this model. If want to generate your own : it is a good idea to
+set FAIL_ON_UNKNOWN_PROPERTIES to false since there maybe additional fields that 
+I did not catch while building the model.
 
 # Jackson
 The Jackson stuff has scope provided in this project! 

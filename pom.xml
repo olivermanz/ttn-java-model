@@ -27,7 +27,7 @@
 
     <groupId>de.omanz</groupId>
     <artifactId>ttn-java-model</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
 
     <name>The Thinks Network Java Model</name>
     <description>A Jackson based Java model for the TTN Uplink Message Webhook call.</description>
